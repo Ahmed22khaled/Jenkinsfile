@@ -4,7 +4,7 @@ pipeline {
     environment {
         APP_NAME = 'web-app'
         REPO_URL = "https://github.com/MohamedMagdy840/jenkins-repo.git"
-        DOCKERHUB_USER = 'mohamedmagdy'   // غيّرها باسمك
+        DOCKERHUB_USER = 'ahmedkhaled989'   // غيّرها باسمك
         IMAGE_NAME = "${DOCKERHUB_USER}/${APP_NAME}"
     }
 
